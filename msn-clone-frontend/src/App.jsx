@@ -1,11 +1,12 @@
+import NewsForm from "./components/NewsForm";
 import SamplePage from "./pages/SamplePage";
 
 function App() {
   return (
     <>
-      <div>
         <SamplePage />
-      </div>
+        <NewsForm /> 
+         {/* we render the NewsForm here to show on are browser page  */}
     </>
   );
 }
