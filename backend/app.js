@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/api/v1/msnclone", newsRouter);
-
+app.use("/api", newsRouter); // we hit POST /api/msnews
 app.all("*", (req, res, next) => {
   next(new AppError(`The URL ${req.originalUrl} does not exist`, 404));
 });
