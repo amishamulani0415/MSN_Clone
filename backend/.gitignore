@@ -1,0 +1,19 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Build output
+dist/
+
+# Environment variables
+.env
+
+#log files
+logs/
+*.log
+*.log.*
+
+# Temporary files
+tmp/
+*.temp
+*.tmp
