@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "responsible for handling all API routes and business logic on MSN clone to ensure user authentication, smooth data flow and seemless communication between frontend and server side.",
+  "license": "ISC",
+  "author": "Qveto Team 5",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10"
+  }
+}
