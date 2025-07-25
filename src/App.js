@@ -5,6 +5,9 @@ import Home from './Pages/Home';
 import Search from './Pages/Search';
 import Category from './Pages/Category';
 import About from './Pages/About';
+import NewsForm from './Pages/NewsForm';
+import NewsLayout from './Pages/NewsLayout';
+
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
           <Route path="/search" element={<Search />} />
           <Route path="/category" element={<Category />} />
           <Route path="/about" element={<About />} />
+          <Route path="/NewsForm" element={<NewsForm />} />
+          <Route path="/NewsLayout" element={<NewsLayout />} />
+
         </Routes>
       </div>
     </Router>
