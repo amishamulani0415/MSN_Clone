@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <NewsLayout />
       <div className="container mt-4">
         <Routes>
           <Route path="/" element={<Home />} />
